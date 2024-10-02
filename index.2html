@@ -1,13 +1,80 @@
-<<li>Cores
- 	  <ul>
-             <li>Verde
-                <ul> 
-		   <li>Verde Escuro</li>
-		   <li>Verde Claro</li>
-                </ul>
-             </li>
-          </ul>
-       </li>    
-    </ul> 	
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Engenharia de Software</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007acc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #007acc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog sobre Engenharia de Software</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card">
+                <h2>Desenvolvimento de Software</h2>
+                <p>Aprenda sobre as fases do desenvolvimento de software, metodologias ágeis e tradicionais.</p>
+                <a href="conteudo1.html" class="button">Acessar</a>
+            </div>
+            <div class="card">
+                <h2>Arquitetura de Software</h2>
+                <p>Explore os princípios de arquitetura de software e como projetar sistemas escaláveis.</p>
+                <a href="conteudo2.html" class="button">Acessar</a>
+            </div>
+            <div class="card">
+                <h2>Testes de Software</h2>
+                <p>Entenda a importância dos testes e as diferentes abordagens para garantir a qualidade do software.</p>
+                <a href="conteudo3.html" class="button">Acessar</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog de Engenharia de Software</p>
+    </footer>
+</body>
 </html>
